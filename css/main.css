@@ -1,4 +1,4 @@
-* {
+body {
 	background-color: black;
 }
 
@@ -9,3 +9,15 @@
 	
 }
 
+#title {
+	text-align: center;
+	font-size: 25px;
+	color: red;
+
+}
+
+.intro-text {
+	background-image: url("../img/logobg.jpg");
+	background-repeat: no-repeat;
+	background-position: cover;
+}
