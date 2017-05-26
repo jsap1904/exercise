@@ -1,0 +1,9 @@
+.navbar-header img {
+	display: inline-block;
+	width: 70%;
+	
+}
+
+.navbar-header a {
+	float: right;
+}
