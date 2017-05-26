@@ -1,9 +1,11 @@
+* {
+	background-color: black;
+}
+
 .navbar-header img {
-	display: inline-block;
+	display: inline;
 	width: 70%;
+	position: relative;
 	
 }
 
-.navbar-header a {
-	float: right;
-}
