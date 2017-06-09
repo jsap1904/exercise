@@ -1,13 +1,15 @@
-
+body {
+	background-color: black;
+}
 
 header {
   background-image: url('../img/logobg.jpg');
-  opacity: .75;
   font-family: '', cursive;
   background-size: initial;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment:fixed;
   background-position: center center;
+  background-color: white;
   text-align: center;
 }
 
@@ -90,4 +92,8 @@ header .intro-text .intro-heading {
 }
 .portfolio {
 	text-align: center;
+}
+.carousel-inner  .item  img {
+    margin: 0 auto;
+    background-color: black;
 }
