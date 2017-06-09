@@ -90,10 +90,7 @@ header .intro-text .intro-heading {
 	padding-left: auto;
 	padding-right: auto;
 }
-.portfolio {
+h3 {
 	text-align: center;
-}
-.carousel-inner  .item  img {
-    margin: 0 auto;
-    background-color: black;
+	margin-bottom: 20px;
 }
