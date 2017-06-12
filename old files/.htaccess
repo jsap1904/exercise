@@ -1,0 +1,32 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^partyrazzievents\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.partyrazzievents\.com$
+RewriteRule ^/?$ "http\:\/\/www\.facebook\.com\/partyrazzievents" [R=301,L]
+
+
+# Use PHP54 Single php.ini as default
+# Changed PHP handler from application/x-httpd-php54s to application/x-httpd-phpbetas on Fri Dec 18 04:51:58 MST 2015.
+AddHandler application/x-httpd-phpbetas .php
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

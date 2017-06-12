@@ -1,0 +1,30 @@
+[11-Mar-2012 18:22:14] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Data is not in a recognized format in /home2/marrijun/public_html/wp-includes/media.php on line 258
+[11-Mar-2012 18:22:41] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Data is not in a recognized format in /home2/marrijun/public_html/wp-includes/media.php on line 258
+[11-Mar-2012 18:23:09] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Data is not in a recognized format in /home2/marrijun/public_html/wp-includes/media.php on line 258
+[11-Mar-2012 18:23:39] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Data is not in a recognized format in /home2/marrijun/public_html/wp-includes/media.php on line 258
+[15-Mar-2012 06:24:44] PHP Warning:  imagecreatefromstring() [<a href='function.imagecreatefromstring'>function.imagecreatefromstring</a>]: Data is not in a recognized format in /home2/marrijun/public_html/wp-includes/media.php on line 258
+[23-Apr-2012 20:57:07] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for /home2/marrijun/public_html/wp-content/plugins/wiziapp/includes/blocks/../../logs/wiziapplog-2012-04-23.log.php in /home2/marrijun/public_html/wp-content/plugins/wiziapp/includes/blocks/app_log.php on line 92
+[23-Apr-2012 20:57:07] WordPress database error Unknown column 'id' in 'field list' for query SELECT COUNT(id) from
+                                (SELECT COUNT(id) AS total, content_id 
+                                FROM wp_wiziapp_content_media w
+                                WHERE attachment_type = 1 group by content_id) as totals 
+                                WHERE total > 5
+                                LIMIT 0, 15 made by activate_plugin, do_action, call_user_func_array, WiziappInstaller->install, WiziappCms->activate, WiziappCms->generateProfile, WiziappCms->getCMSProfileStats, WiziappDB->get_images_post_albums_count
+[23-Apr-2012 20:57:07] WordPress database error Unknown column 'id' in 'field list' for query SELECT COUNT(id) from
+                                (SELECT COUNT(id) AS total, content_id 
+                                FROM wp_wiziapp_content_media w
+                                WHERE attachment_type = 3 group by content_id) as totals 
+                                WHERE total > 2
+                                LIMIT 0, 15 made by activate_plugin, do_action, call_user_func_array, WiziappInstaller->install, WiziappCms->activate, WiziappCms->generateProfile, WiziappCms->getCMSProfileStats, WiziappDB->get_audios_post_albums_count
+[23-Apr-2012 20:58:51] WordPress database error Unknown column 'id' in 'field list' for query SELECT COUNT(id) from
+                                (SELECT COUNT(id) AS total, content_id 
+                                FROM wp_wiziapp_content_media w
+                                WHERE attachment_type = 1 group by content_id) as totals 
+                                WHERE total > 5
+                                LIMIT 0, 15 made by do_action, call_user_func_array, wiziapp_batch_processing_finish, WiziappCms->activate, WiziappCms->generateProfile, WiziappCms->getCMSProfileStats, WiziappDB->get_images_post_albums_count
+[23-Apr-2012 20:58:51] WordPress database error Unknown column 'id' in 'field list' for query SELECT COUNT(id) from
+                                (SELECT COUNT(id) AS total, content_id 
+                                FROM wp_wiziapp_content_media w
+                                WHERE attachment_type = 3 group by content_id) as totals 
+                                WHERE total > 2
+                                LIMIT 0, 15 made by do_action, call_user_func_array, wiziapp_batch_processing_finish, WiziappCms->activate, WiziappCms->generateProfile, WiziappCms->getCMSProfileStats, WiziappDB->get_audios_post_albums_count
