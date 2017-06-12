@@ -1,5 +1,7 @@
 body {
 	background-color: black;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: white;
 }
 
 header {
@@ -103,7 +105,7 @@ header .intro-text .intro-heading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: white;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -146,7 +148,7 @@ header .intro-text .intro-heading {
   height: 100px;
   position: absolute;
   z-index: 100;
-  background-color: skyblue;
+  background-color: grey;
   color: white;
   border-radius: 50%;
   border: 7px solid #f1f1f1;
@@ -188,7 +190,8 @@ header .intro-text .intro-heading {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+
+@media (min-width: 568px) {
   .timeline:before {
     left: 50%;
   }
@@ -261,4 +264,17 @@ header .intro-text .intro-heading {
 }
 .text-muted {
 	margin-bottom: 100px;
+}
+
+h3 {
+	margin-bottom: 100px;
+	color: red;
+}
+h4 {
+	color: red;
+	font-weight: bold;
+}
+.section-heading {
+	color: red;
+	font-weight: bold;
 }
